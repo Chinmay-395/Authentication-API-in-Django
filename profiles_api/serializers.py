@@ -2,6 +2,9 @@
 Converts data inputs to python objects just like forms.py also,
 checks if the data types of the input wrt to the input given by the user
 also take care of validation
+--------------------------------------------------------
+Basically it converts the data into JSON
+and validations for data passed that has beem passed
 """
 from rest_framework import serializers
 from profiles_api import models
